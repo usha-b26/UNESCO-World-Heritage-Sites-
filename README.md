@@ -94,8 +94,8 @@ This project uses a MySQL database named `unesco_sites`. Follow the instructions
 2.Create the target database:
 Run the following commands inside the MySQL shell to set up an empty database container:
 
-CREATE DATABASE unesco_sites;
-EXIT;
+   CREATE DATABASE unesco_sites;
+   EXIT;
 
 Import the dataset:
 Navigate to the directory where your backup file is saved and execute the import command:
