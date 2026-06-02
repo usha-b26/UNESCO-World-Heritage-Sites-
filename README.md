@@ -72,4 +72,37 @@ Natural sites tend to have larger area sizes
 --└── README.md
 --⭐ Conclusion
 
+
+# UNESCO Heritage Sites Project
+
+A database project tracking global UNESCO heritage sites, including geographical coordinates, categories, regional areas, and danger statuses.
+
+## Database Setup
+
+This project uses a MySQL database named `unesco_sites`. Follow the instructions below to import the database structure and data locally.
+
+### Prerequisites
+* MySQL Server (v8.0+ recommended) installed and running.
+* Terminal, Command Prompt, or Git Bash.
+
+### Setup Instructions
+
+1. **Log into your MySQL server:**
+   Open your command line and execute:
+   ```bash
+   mysql -u root -p
+2.Create the target database:
+Run the following commands inside the MySQL shell to set up an empty database container:
+
+CREATE DATABASE unesco_sites;
+EXIT;
+
+Import the dataset:
+Navigate to the directory where your backup file is saved and execute the import command:
+
+
+   mysql -u root -p unesco_sites < unesco_sites.sql
+
+
+
 This project demonstrates how data analysis and visualization can be used to understand global heritage distribution and support cultural preservation insights.
